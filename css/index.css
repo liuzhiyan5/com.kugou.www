@@ -247,7 +247,7 @@
     position: relative;
 }
 
-.rotation a {
+.rotation .big-bgc {
     display: block;
     width: 100%;
     height: 445px;
@@ -264,4 +264,60 @@
     height: 60px;
     background-color: white;
     background: rgba(0, 0, 0, .3);
+}
+
+.rotation .download .download-word {
+    float: left;
+    height: 60px;
+    margin-left: calc((1519.2px - 664.68px) / 2);
+}
+
+.rotation .download-word a {
+    float: left;
+    height: 25px;
+    margin-top: calc((60px - 25px) / 2);
+}
+
+.rotation .download-word a span {
+    line-height: 25px;
+    padding-left: 21px;
+}
+
+.rotation .download-word .xian {
+    float: left;
+    font-size: 20px;
+    color: #7aa5a9;
+    margin-top: calc((60px - 25px) / 2);
+}
+
+.rotation .download-word i {
+    color: #dde6e7;
+    font-size: 24px;
+    line-height: 25px;
+    vertical-align: middle;
+}
+
+.rotation .download-word span {
+    color: #fff;
+    font-size: 15px;
+}
+
+.rotation .download-word a:nth-last-child(-n+3) {
+    margin-left: 57px;
+}
+
+.rotation .download-word a:nth-child(3) {
+    margin-right: 63px;
+}
+
+.rotation .download-word a:nth-child(1) {
+    margin-right: 78px;
+}
+
+.rotation .download-word a:hover span {
+    color: #ffffdf;
+}
+
+.rotation .download-word a:hover i {
+    color: #dfe7ce;
 }
