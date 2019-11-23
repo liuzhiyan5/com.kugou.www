@@ -355,16 +355,18 @@
 /* 轮播图结束 */
 
 /* 精选歌单开始 */
+.song-one-medal {
+    margin-top: 41px;
+}
+
 .song-one-medal-left {
     float: left;
-    margin-bottom: 1000px;
 }
 
 .song-one-medal .song-one-medal-left .song-one {
     width: 649px;
     height: 27px;
     line-height: 27px;
-    margin-top: 41px;
 }
 
 .song-one-medal-left .song-one span {
@@ -387,20 +389,32 @@
 }
 
 .song-one-medal-left .song-one-under {
-    width: 650px;
+    width: 655px;
     height: 325px;
-    background-color: pink;
     margin-top: 32px;
 }
 
 .song-one-under a {
     display: block;
     position: relative;
+    float: left;
+    width: 160px;
+    height: 160px;
+}
+
+.song-one-under .other {
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+.song-one-under .first-one {
+    display: block;
+    position: relative;
     width: 325px;
     height: 100%;
 }
 
-.song-one-under a img {
+.song-one-under .first-one img {
     width: 325px;
     height: 100%;
 }
@@ -453,7 +467,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 325px;
+    width: 160px;
     height: 100%;
     background-color: rgba(0, 0, 0, .3);
 }
@@ -462,8 +476,22 @@
     display: block;
 }
 
-.song-one-under a:nth-child(2) img {
-    float: left;
+.song-one-medal-left .song-one-under .first-one::after {
+    display: none;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 325px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .3);
+}
+
+.song-one-medal-left .song-one-under .first-.first-one:hover::after {
+    display: block;
+}
+
+.song-one-under a img {
     width: 160px;
     height: 160px;
 }
@@ -478,4 +506,100 @@
     border: 1px solid #fff;
 } */
 
+.song-one-medal .song-one-medal-right {
+    float: left;
+    width: 320px;
+    height: 384px;
+    margin-left: 25px;
+}
+
+.song-one-medal .song-one-medal-right .medal {
+    width: 100%;
+    height: 27px;
+    line-height: 27px;
+}
+
+.song-one-medal-right .medal span {
+    float: left;
+    font-size: 24px;
+}
+
+.song-one-medal-right .medal i {
+    color: #009af4;
+}
+
+.song-one-medal-right .medal a {
+    float: right;
+    font-size: 13px;
+    color: #999;
+}
+
+.song-one-medal-right .medal a:hover {
+    color: #009af3;
+}
+
+.song-one-medal-right .medal-under {
+    margin-top: 32px;
+}
+
+.song-one-medal-right .more {
+    display: block;
+    position: relative;
+    width: 320px;
+    height: 98px;
+    font-size: 14px;
+    background-color: #f6f6f6;
+    margin-top: 15px;
+    overflow: hidden;
+}
+
+.song-one-medal-right .more::after {
+    display: none;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 98px;
+    height: 98px;
+    background-color: rgba(0, 0, 0, .3);
+}
+
+.song-one-medal-right .more:hover::after {
+    display: block;
+}
+
+.song-one-medal-right .more img {
+    float: left;
+    width: 98px;
+    height: 98px;
+    margin-right: 10px;
+}
+
+.song-one-medal-right .more span {
+    position: absolute;
+    top: 39px;
+    right: 13px;
+    font-size: 20px;
+    color: #d0d0d0;
+}
+
+.song-one-medal-right .more h3 {
+    margin-top: 21px;
+    margin-bottom: 11px;
+}
+
+.song-one-medal-right .more p:nth-child(3) {
+    margin-bottom: 10px;
+}
+
 /* 精选歌单结束 */
+
+/* 广告开始 */
+.advert img {
+    width: 1000px;
+    height: 80px;
+    margin-top: 15px;
+    margin-bottom: 1000px;
+}
+
+/* 广告结束 */
