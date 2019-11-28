@@ -454,6 +454,7 @@
 
 .song-one-under a div del {
     display: block;
+    font-size: 14px;
     margin: 8px 10px;
 }
 
@@ -599,7 +600,475 @@
     width: 1000px;
     height: 80px;
     margin-top: 15px;
-    margin-bottom: 1000px;
 }
 
 /* 广告结束 */
+
+/* 新歌首发开始 */
+.new-song {
+    height: 415px;
+    margin-top: 40px;
+}
+
+.new-song .new-song-one {
+    width: 649px;
+    height: 29px;
+    line-height: 29px;
+}
+
+.new-song-left {
+    float: left;
+}
+
+.new-song-left .new-song-one span {
+    float: left;
+    font-size: 24px;
+    margin-right: 32px;
+}
+
+.new-song-left .new-song-one i {
+    color: #009af4;
+}
+
+.new-song-left .new-song-one a {
+    font-size: 14px;
+    margin-right: 24px;
+}
+
+.new-song-left .new-song-one a:nth-child(2) {
+    color: #009af4;
+}
+
+.new-song-left .new-song-one a:hover {
+    color: #009af4;
+}
+
+.new-song-one-under a span {
+    float: right;
+}
+
+.new-song-one-under a:hover {
+    color: #009af4;
+    background-color: #f5f8fb;
+}
+
+.new-song-left .new-song-one .all {
+    float: right;
+    width: 89px;
+    height: 29px;
+    color: #555;
+    font-size: 13px;
+    text-align: center;
+    border: 1px solid #dbdbdb;
+    margin: 0;
+}
+
+.new-song-left .new-song-one .all:hover {
+    color: #009af3;
+    border-color: #009af3;
+}
+
+.new-song-one-under {
+    width: 649px;
+    height: 316px;
+    border-top: 1px solid #f0f0f0;
+    margin-top: 20px;
+}
+
+.new-song-one-under a {
+    display: block;
+    font-size: 13px;
+    padding: 11px 0;
+}
+
+.new-song-one-under a:first-child {
+    margin-top: 11px;
+}
+
+.new-song-one-under .song-page-number {
+    color: #8d8d8d;
+    text-align: center;
+}
+
+.new-song-one-under .song-page-number a {
+    display: inline-block;
+    height: 13.6px;
+    color: #979797;
+}
+
+.new-song-one-under .song-page-number a:last-child {
+    font-weight: 700;
+}
+
+.new-song-one-under .song-page-number a:hover {
+    background-color: #fff;
+    font-weight: 700;
+}
+
+.new-song-right {
+    float: right;
+    width: 320px;
+    height: 358px;
+}
+
+.new-song-right .MV {
+    height: 27px;
+    line-height: 27px;
+}
+
+.new-song-right .MV span {
+    float: left;
+    font-size: 24px;
+}
+
+.new-song-right .MV i {
+    color: #009af4;
+}
+
+.new-song-right .MV a {
+    float: right;
+    font-size: 13px;
+    color: #999;
+}
+
+.new-song-right .MV a:hover {
+    color: #009af3;
+}
+
+.new-song-right .MV-under {
+    height: 310px;
+    margin-top: 21px;
+}
+
+.MV-under .img-first {
+    display: inline-block;
+    position: relative;
+    width: 320px;
+    height: 175px;
+    background-image: url(../upload/new-song-right1.jpg);
+    background-size: 320px 175px;
+}
+
+.MV-under .img-first div {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 320px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, .3);
+}
+
+.MV-under .img-first::after {
+    content: '';
+    display: none;
+    width: 320px;
+    height: 175px;
+    background-color: rgba(0, 0, 0, .3);
+}
+
+.MV-under .img-first:hover::after {
+    display: block;
+}
+
+.img-first div p {
+    color: #fff;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 8px;
+    margin-bottom: 3px;
+}
+
+.img-first div del {
+    color: #cacaca;
+    font-size: 14px;
+    margin-left: 8px;
+}
+
+.MV-under .img-other {
+    display: inline-block;
+    position: relative;
+    width: 154px;
+    height: 123px;
+    margin-top: 8px;
+    margin-right: 8px;
+}
+
+.MV-under .img-other img {
+    width: 154px;
+    height: 84px;
+}
+
+.MV-under a:nth-child(3) {
+    margin-right: 0;
+}
+
+.MV-under .img-other h5 {
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 6px;
+}
+
+.MV-under .img-other span {
+    display: inline-block;
+    color: #888;
+    margin-top: 3px;
+}
+
+.MV-under .img-other div {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 154px;
+    height: 84px;
+    background-color: rgba(0, 0, 0, .3);
+}
+
+.MV-under .img-other:hover div {
+    display: block;
+}
+
+.MV-under .img-other:hover h5 {
+    color: #009af3;
+}
+
+/* 新歌首发结束 */
+
+/* 热门电台开始 */
+.radio-station-medal {
+    height: 352px;
+    margin-top: 42px;
+    margin-bottom: 1000px;
+}
+
+.radio-station-medal .radio-station-medal-left {
+    float: left;
+    width: 649px;
+    height: 352px;
+}
+
+.radio-station-medal .radio-station-medal-left .radio-station {
+    height: 27px;
+    line-height: 27px;
+}
+
+.radio-station-medal-left .radio-station span {
+    float: left;
+    font-size: 24px;
+}
+
+.radio-station-medal-left .radio-station i {
+    color: #009af4;
+}
+
+.radio-station-medal-left .radio-station a {
+    float: right;
+    font-size: 13px;
+    color: #999;
+}
+
+.radio-station-medal-left .radio-station a:hover {
+    color: #009af3;
+}
+
+.radio-station-medal-left .radio-station-up {
+    height: 281px;
+    margin-top: 31px;
+}
+
+.radio-station-up a {
+    position: relative;
+    float: left;
+    width: 100px;
+    height: 126px;
+    text-align: center;
+    margin-right: 37px;
+    margin-bottom: 29px;
+}
+
+.radio-station-up a:nth-child(5),
+.radio-station-up a:nth-child(10) {
+    margin-right: 0;
+}
+
+.radio-station-up a img {
+    width: 100px;
+    height: 100px;
+}
+
+.radio-station-up a span {
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.radio-station-up a div {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    background-color: rgba(0, 0, 0, .2);
+}
+
+.radio-station-up a:hover div {
+    display: block;
+}
+
+.radio-station-up a:hover span {
+    color: #009af3;
+}
+
+.radio-station-medal-right {
+    float: left;
+    width: 318px;
+    height: 352px;
+    margin-left: 32px;
+}
+
+.radio-station-medal-right .singer {
+    height: 27px;
+    line-height: 27px;
+}
+
+.radio-station-medal-right .singer span {
+    float: left;
+    font-size: 24px;
+}
+
+.radio-station-medal-right .singer i {
+    color: #009af4;
+}
+
+.radio-station-medal-right .singer a {
+    font-size: 14px;
+    color: #000;
+    margin-left: 16px;
+}
+
+.radio-station-medal-right .singer a:nth-child(2) {
+    color: #009af3;
+    margin-left: 30px;
+}
+
+.radio-station-medal-right .singer a:last-child {
+    color: #999;
+}
+
+.radio-station-medal-right .singer a:hover {
+    color: #009af3;
+}
+
+.singer-up {
+    width: 320px;
+    height: 270px;
+    margin-top: 31px;
+}
+
+.singer-up a {
+    position: relative;
+    float: left;
+}
+
+.singer-up a:first-child {
+    width: 160px;
+    height: 160px;
+    background-image: url(../upload/singer1.jpg);
+    background-size: 160px 160px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+.singer-up a:nth-child(2) {
+    width: 153px;
+    height: 160px;
+    background-image: url(../upload/singer2.jpg);
+    background-size: 153px 160px;
+    margin-bottom: 5px;
+}
+
+.singer-up a:nth-child(3) {
+    width: 105px;
+    height: 105px;
+    background-image: url(../upload/singer3.jpg);
+    background-size: 105px 105px;
+    margin-right: 5px;
+}
+
+.singer-up a:nth-child(4) {
+    width: 105px;
+    height: 105px;
+    background-image: url(../upload/singer4.jpg);
+    background-size: 105px 105px;
+    margin-right: 5px;
+}
+
+.singer-up a:nth-child(5) {
+    width: 100px;
+    height: 105px;
+    background-image: url(../upload/singer5.jpg);
+    background-size: 100px 105px;
+}
+
+.singer-up a span {
+    position: absolute;
+    left: 6px;
+    bottom: 10px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.singer-up a:first-child div {
+    display: none;
+    width: 160px;
+    height: 160px;
+    background-color: rgba(0, 0, 0, .3);
+}
+
+.singer-up a:first-child:hover div {
+    display: block;
+}
+
+.singer-up a:nth-child(2) div {
+    display: none;
+    width: 153px;
+    height: 160px;
+    background-color: rgba(0, 0, 0, .3);
+}
+
+.singer-up a:nth-child(2):hover div {
+    display: block;
+}
+
+.singer-up a:nth-child(3) div {
+    display: none;
+    width: 105px;
+    height: 105px;
+    background-color: rgba(0, 0, 0, .3);
+}
+
+.singer-up a:nth-child(3):hover div {
+    display: block;
+}
+
+.singer-up a:nth-child(4) div {
+    display: none;
+    width: 105px;
+    height: 105px;
+    background-color: rgba(0, 0, 0, .3);
+}
+
+.singer-up a:nth-child(4):hover div {
+    display: block;
+}
+
+.singer-up a:nth-child(5) div {
+    display: none;
+    width: 100px;
+    height: 105px;
+    background-color: rgba(0, 0, 0, .3);
+}
+
+.singer-up a:nth-child(5):hover div {
+    display: block;
+}
