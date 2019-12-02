@@ -372,6 +372,7 @@
 .song-one-medal-left .song-one span {
     float: left;
     font-size: 24px;
+    font-weight: lighter;
 }
 
 .song-one-medal-left .song-one i {
@@ -458,6 +459,32 @@
     margin: 8px 10px;
 }
 
+.song-one-under a div .transmit {
+    display: none;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 34px;
+    height: 34px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 34px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, .4);
+    border: 1.8px solid #a2a4a6;
+    border-radius: 50%;
+    vertical-align: bottom;
+    z-index: 1;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    padding-left: 2px;
+}
+
+.song-one-under a div .transmit:hover {
+    border-color: #f6f7f7;
+}
+
 .song-one-under a div del:nth-child(2) {
     color: #cfcfcf;
 }
@@ -471,6 +498,10 @@
     width: 160px;
     height: 100%;
     background-color: rgba(0, 0, 0, .3);
+}
+
+.song-one-medal-left .song-one-under a:hover .transmit {
+    display: block;
 }
 
 .song-one-medal-left .song-one-under a:hover::after {
@@ -497,16 +528,6 @@
     height: 160px;
 }
 
-/* .song-one-under a u {
-    position: absolute;
-    bottom: 1px;
-    right: 8px;
-    opacity: 0.5;
-    color: #3c3c3c;
-    font-size: 38px;
-    border: 1px solid #fff;
-} */
-
 .song-one-medal .song-one-medal-right {
     float: left;
     width: 320px;
@@ -523,6 +544,7 @@
 .song-one-medal-right .medal span {
     float: left;
     font-size: 24px;
+    font-weight: lighter;
 }
 
 .song-one-medal-right .medal i {
@@ -569,6 +591,14 @@
     display: block;
 }
 
+.song-one-medal-right .more:hover i {
+    display: block;
+}
+
+.song-one-medal-right .more:hover i:hover {
+    border-color: #f6f7f7;
+}
+
 .song-one-medal-right .more img {
     float: left;
     width: 98px;
@@ -589,14 +619,40 @@
     margin-bottom: 11px;
 }
 
-.song-one-medal-right .more p:nth-child(3) {
+.song-one-medal-right .more p:nth-child(4) {
     margin-bottom: 10px;
+}
+
+.medal-under .more i {
+    display: none;
+    position: absolute;
+    top: 35px;
+    left: 32px;
+    width: 36px;
+    height: 36px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 34px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, .4);
+    border: 1.8px solid #a2a4a6;
+    border-radius: 50%;
+    vertical-align: bottom;
+    z-index: 1;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    padding-left: 2px;
+}
+
+.medal-under .more.transmit:hover {
+    border-color: #f6f7f7;
 }
 
 /* 精选歌单结束 */
 
 /* 广告开始 */
-.advert img {
+.advert1 img {
     width: 1000px;
     height: 80px;
     margin-top: 15px;
@@ -623,6 +679,7 @@
 .new-song-left .new-song-one span {
     float: left;
     font-size: 24px;
+    font-weight: lighter;
     margin-right: 32px;
 }
 
@@ -643,13 +700,53 @@
     color: #009af4;
 }
 
+.new-song-one-under a p {
+    position: relative;
+    height: 15px;
+}
+
 .new-song-one-under a span {
     float: right;
+}
+
+.new-song-one-under a .hide1 {
+    display: none;
+    position: absolute;
+    top: -6px;
+    right: 66px;
+    color: #b1b2b3;
+    font-size: 22px;
+}
+
+.new-song-one-under a .hide1:hover {
+    color: #009af4;
+}
+
+.new-song-one-under a .hide2 {
+    display: none;
+    position: absolute;
+    top: -4px;
+    right: 44px;
+    color: #b1b2b3;
+    font-size: 20px;
+}
+
+.new-song-one-under a .hide2:hover {
+    color: #009af4;
+}
+
+.new-song-one-under a:hover .hide1,
+.new-song-one-under a:hover .hide2 {
+    display: block;
 }
 
 .new-song-one-under a:hover {
     color: #009af4;
     background-color: #f5f8fb;
+}
+
+.new-song-one-under a:hover .exclusive {
+    display: none;
 }
 
 .new-song-left .new-song-one .all {
@@ -660,12 +757,23 @@
     font-size: 13px;
     text-align: center;
     border: 1px solid #dbdbdb;
+
     margin: 0;
+}
+
+.new-song-one .all i {
+    color: #999;
+    font-size: 23px;
+    vertical-align: bottom;
 }
 
 .new-song-left .new-song-one .all:hover {
     color: #009af3;
     border-color: #009af3;
+}
+
+.new-song-left .new-song-one .all:hover i {
+    color: #009af3;
 }
 
 .new-song-one-under {
@@ -679,6 +787,13 @@
     display: block;
     font-size: 13px;
     padding: 11px 0;
+}
+
+.new-song-one-under a .exclusive {
+    color: #ff7f0d;
+    font-size: 13px;
+    font-weight: 700;
+    margin-left: 10px;
 }
 
 .new-song-one-under a:first-child {
@@ -719,6 +834,7 @@
 .new-song-right .MV span {
     float: left;
     font-size: 24px;
+    font-weight: lighter;
 }
 
 .new-song-right .MV i {
@@ -834,11 +950,19 @@
 
 /* 新歌首发结束 */
 
+/* 广告开始 */
+.advert2 img {
+    width: 1000px;
+    height: 100px;
+    margin-top: 15px;
+}
+
+/* 广告结束 */
+
 /* 热门电台开始 */
 .radio-station-medal {
     height: 352px;
     margin-top: 42px;
-    margin-bottom: 1000px;
 }
 
 .radio-station-medal .radio-station-medal-left {
@@ -855,6 +979,7 @@
 .radio-station-medal-left .radio-station span {
     float: left;
     font-size: 24px;
+    font-weight: lighter;
 }
 
 .radio-station-medal-left .radio-station i {
@@ -909,6 +1034,27 @@
     width: 100px;
     height: 100px;
     background-color: rgba(0, 0, 0, .2);
+    border-radius: 50%;
+}
+
+.radio-station-up a i {
+    display: none;
+    position: absolute;
+    top: 31px;
+    left: 31px;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    background-color: rgba(0, 0, 0, .4);
+    border-radius: 50%;
+    box-sizing: border-box;
+    padding-left: 2px;
+}
+
+.radio-station-up a:hover i {
+    display: block;
 }
 
 .radio-station-up a:hover div {
@@ -934,6 +1080,7 @@
 .radio-station-medal-right .singer span {
     float: left;
     font-size: 24px;
+    font-weight: lighter;
 }
 
 .radio-station-medal-right .singer i {
@@ -1072,3 +1219,108 @@
 .singer-up a:nth-child(5):hover div {
     display: block;
 }
+
+/* 友情链接开始 */
+.friendship-chaining-medal {
+    height: 173px;
+    margin-top: 31px;
+}
+
+.friendship-chaining-medal .friendship-chaining {
+    height: 27px;
+}
+
+.friendship-chaining-medal .friendship-chaining span {
+    float: left;
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+.friendship-chaining-medal .friendship-chaining i {
+    color: #009af4;
+}
+
+.friendship-chaining-medal .friendship-chaining a {
+    float: right;
+    font-size: 13px;
+    color: #999;
+    line-height: 27px;
+}
+
+.friendship-chaining-medal .friendship-chaining a:hover {
+    color: #009af3;
+}
+
+.friendship-chaining-up {
+    height: 108px;
+    width: 1000px;
+    margin-top: 38px;
+}
+
+.friendship-chaining-up a {
+    display: inline-block;
+    width: 125px;
+    height: 24px;
+    color: #555;
+    font-size: 13px;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+
+.friendship-chaining-up a:nth-child(8) {
+    width: 101px;
+}
+
+.friendship-chaining-up a:hover {
+    color: #009af3;
+}
+
+/* 友情链接结束 */
+
+/* 底部导航开始 */
+.bottom-navigation {
+    height: 319px;
+    background-color: #2c323b;
+}
+
+.bottom-navigation-top {
+    height: 48px;
+    color: #a3a4ab;
+    border-bottom: 1px solid #3d424a;
+    text-align: center;
+    cursor: default;
+}
+
+.bottom-navigation-top a {
+    display: inline-block;
+    color: #b1b3b9;
+    line-height: 48px;
+    margin: 0 12px;
+}
+
+.bottom-navigation-top a:hover {
+    color: #009af3;
+}
+
+.bottom-navigation-up {
+    margin-top: 49px;
+}
+
+.bottom-navigation-up p {
+    height: 29.6px;
+    color: #b1b3b9;
+    font-size: 13px;
+    text-align: center;
+    line-height: 29.6px;
+}
+
+.bottom-navigation-up p a {
+    color: #999;
+}
+
+.bottom-navigation-up p .tu {
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+/* 底部导航结束 */
