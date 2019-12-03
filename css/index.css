@@ -352,6 +352,52 @@
     color: #dfe7ce;
 }
 
+.big-bgc div:nth-last-child(2) {
+    display: none;
+    position: absolute;
+    top: calc((445px - 120px) / 2);
+    left: 0;
+    width: 60px;
+    height: 120px;
+    background-color: rgba(0, 0, 0, .3);
+}
+
+.big-bgc div:last-child {
+    display: none;
+    position: absolute;
+    top: calc((445px - 120px) / 2);
+    right: 0;
+    width: 60px;
+    height: 120px;
+    background-color: rgba(0, 0, 0, .3);
+}
+
+.big-bgc div i {
+    color: #e0e2e0;
+    line-height: 120px;
+    font-size: 60px;
+}
+
+.big-bgc div i {
+    color: #e0e2e0;
+    line-height: 120px;
+    font-size: 60px;
+}
+
+.big-bgc div:hover,
+.big-bgc div:hover {
+    background-color: rgba(0, 0, 0, .4);
+}
+
+.big-bgc div:hover i,
+.big-bgc div:hover i {
+    color: #f3f3f3;
+}
+
+.big-bgc:hover div {
+    display: block;
+}
+
 /* 轮播图结束 */
 
 /* 精选歌单开始 */
@@ -948,6 +994,41 @@
     color: #009af3;
 }
 
+.MV-under a:hover i {
+    display: block;
+}
+
+.MV-under a i {
+    display: none;
+    width: 45px;
+    height: 45px;
+    color: #fff;
+    font-size: 26px;
+    text-align: center;
+    line-height: 45px;
+    border: 1.8px solid #a2a4a6;
+    border-radius: 50%;
+    box-sizing: border-box;
+    padding-left: 4px;
+}
+
+.MV-under a i:hover {
+    border-color: #fff;
+    background: rgba(0, 0, 0, .3);
+}
+
+.MV-under a .transmit1 {
+    position: absolute;
+    top: calc((175px - 45px) / 2);
+    left: calc((320px - 45px) / 2);
+}
+
+.MV-under a .transmit2 {
+    position: absolute;
+    top: calc((84px - 45px) / 2);
+    left: calc((154px - 45px) / 2);
+}
+
 /* 新歌首发结束 */
 
 /* 广告开始 */
@@ -1066,6 +1147,7 @@
 }
 
 .radio-station-medal-right {
+    position: relative;
     float: left;
     width: 318px;
     height: 352px;
@@ -1219,6 +1301,41 @@
 .singer-up a:nth-child(5):hover div {
     display: block;
 }
+
+.radio-station-medal-right ul {
+    position: absolute;
+    bottom: 0;
+    left: calc((318px - 57px) / 2);
+    height: 6px;
+}
+
+.radio-station-medal-right ul li {
+    float: left;
+    width: 6px;
+    height: 6px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin-left: 13px;
+}
+
+.radio-station-medal-right ul .first-child {
+    background-color: #009af3;
+}
+
+.radio-station-medal-right ul li:hover {
+    background-color: #009af3;
+}
+
+/* 热门电台结束 */
+
+/* 广告开始 */
+.advert3 img {
+    width: 1000px;
+    height: 100px;
+    margin-top: 36px;
+}
+
+/* 广告结束 */
 
 /* 友情链接开始 */
 .friendship-chaining-medal {
