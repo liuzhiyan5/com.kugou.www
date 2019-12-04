@@ -1,0 +1,235 @@
+/* 顶部搜索栏开始 */
+.search {
+    height: 78px;
+    /* background-color: pink; */
+}
+
+.search img {
+    float: left;
+    margin-top: calc(39px - 18.5px)
+}
+
+.search .in-search {
+    float: left;
+    width: 298px;
+    height: 34px;
+    /* background-color: pink; */
+    border: 1px solid #ccc;
+    margin-top: calc(39px - 17px);
+    margin-left: 42px;
+}
+
+.search .in-search span {
+    float: left;
+    width: 14px;
+    height: 34px;
+}
+
+.search .in-search input {
+    float: left;
+    width: 260px;
+    height: 34px;
+    font-size: 13px;
+    /* background-color: pink; */
+    border: 0;
+}
+
+.search .in-search .iconfont {
+    float: left;
+    width: 22px;
+    font-size: 22px;
+    color: #858585;
+    margin-top: calc(17px - 11px);
+}
+
+.search .in-search .iconfont:hover {
+    color: #73b6ef;
+}
+
+.search .search-right {
+    float: left;
+    height: 24px;
+    margin-top: calc(39px - 12px);
+    margin-left: 119px;
+}
+
+.search .search-right li {
+    float: left;
+    text-decoration: none;
+    text-align: center;
+    font-size: 13px;
+    margin: 0 15px;
+    margin-top: calc(12px - 6.5px);
+}
+
+.search .search-right li a {
+    color: #777;
+}
+
+.search .search-right li a:hover {
+    color: #009af3;
+}
+
+.search .search-right .xian {
+    height: 24px;
+    border-right: 1px solid #e6e6e6;
+    margin-top: 0;
+}
+
+.search .enter {
+    float: left;
+    width: 50px;
+    height: 30px;
+    font-size: 13px;
+    background-color: #169af3;
+    border-radius: 3px;
+    margin-left: 15px;
+    margin-top: calc(39px - 15px);
+}
+
+.search .enter:hover {
+    background-color: #158fe1;
+}
+
+.search .enter span {
+    display: block;
+    color: #fff;
+    text-align: center;
+    margin-top: calc(15px - 6.5px);
+}
+
+/* 顶部搜索栏结束 */
+
+/* 导航栏开始 */
+.navigation {
+    height: 55px;
+    background-color: #2c323b;
+}
+
+.navigation .nav-left {
+    float: left;
+}
+
+.navigation .nav-left span {
+    float: left;
+    color: #ddd;
+    font-size: 16px;
+    line-height: 55px;
+    padding: 0 30px;
+}
+
+.navigation .nav-left .more {
+    float: left;
+    color: #ddd;
+    font-size: 16px;
+    line-height: 55px;
+    padding: 0 30px;
+}
+
+.navigation .nav-left .more a {
+    color: #ddd;
+}
+
+.navigation .nav-left span:hover {
+    background-color: #0c8ed9;
+}
+
+.navigation .nav-left .more:hover {
+    background-color: #0c8ed9;
+}
+
+.navigation .nav-left a:hover span {
+    color: #fff;
+}
+
+.navigation .nav-left .more:hover .this-more {
+    color: #fff;
+}
+
+.navigation .nav-left .more {
+    position: relative;
+}
+
+.navigation .nav-left .more {
+    padding-left: 30px;
+    padding-right: 50px;
+}
+
+.navigation .nav-left .more img {
+    position: absolute;
+    top: 25px;
+    right: 27px;
+}
+
+.navigation .nav-left .more .more-ssj {
+    display: none;
+    position: absolute;
+    top: 25px;
+    right: 27px;
+}
+
+.navigation .nav-left .more:hover .more-ssj {
+    display: block;
+}
+
+.navigation .nav-left .more:hover .more-xsj {
+    display: none;
+}
+
+.navigation .nav-left .more ul {
+    display: none;
+    position: absolute;
+    top: 55px;
+    left: 0px;
+    width: 113px;
+    height: 148px;
+    background-color: #252b34;
+    z-index: 1;
+}
+
+.navigation .nav-left .more:hover ul {
+    display: block;
+}
+
+.navigation .nav-left ul li {
+    width: 100%;
+    height: 37px;
+}
+
+.navigation .nav-left ul a {
+    display: block;
+    width: 112px;
+    height: 37px;
+    color: #bbb;
+    font-size: 15px;
+    text-align: center;
+    line-height: 37px;
+}
+
+.navigation .nav-left ul a:hover {
+    color: #fff;
+    background-color: #2d343d;
+}
+
+.navigation .nav-right {
+    float: right;
+}
+
+.navigation .nav-right a {
+    float: left;
+    color: #bbbbbb;
+    font-size: 13px;
+    line-height: 55px;
+    margin: 0 15.5px;
+}
+
+.navigation .nav-right a:hover {
+    color: #14a9ff;
+}
+
+.navigation .nav-right .iconfont {
+    font-size: 13px;
+    padding-right: 7px;
+}
+
+/* 导航栏结束 */
