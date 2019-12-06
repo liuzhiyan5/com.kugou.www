@@ -1,0 +1,122 @@
+/* 顶部logo开始 */
+.logo {
+    height: 103px;
+    line-height: 124px;
+}
+
+/* 顶部logo结束 */
+
+/* 顶部导航栏1开始 */
+.top-nav1 {
+    height: 48px;
+    background-color: #2babe8;
+}
+
+.top-nav1 a {
+    float: left;
+    width: 124px;
+    height: 48px;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.top-nav1 a:hover {
+    background-color: #48cbff;
+}
+
+.top-nav1 .default {
+    background-color: #48cbff;
+}
+
+.top-nav1 a:last-child {
+    float: right;
+    width: 150px;
+    font-weight: 400;
+}
+
+/* 顶部导航栏1结束 */
+
+/* 顶部导航栏2开始 */
+.top-nav2 {
+    height: 52px;
+    border-bottom: 2px solid #f0f0f0;
+}
+
+.top-nav2 a {
+    float: left;
+    width: 124px;
+    height: 22px;
+    color: #777;
+    font-size: 16px;
+    text-align: center;
+    line-height: 22px;
+    margin-top: calc((52px - 22px) / 2);
+}
+
+.top-nav2 .second {
+    display: inline-block;
+    border-left: 1px solid #eaeaea;
+    border-right: 1px solid #eaeaea;
+}
+
+.top-nav2 a:nth-child(2) {
+    color: #2babe8;
+    font-weight: 700;
+}
+
+.top-nav2 a:hover {
+    color: #2babe8;
+}
+
+/* 顶部导航栏2结束 */
+
+/* 中心内容开始 */
+.central-content {
+    position: relative;
+    height: 759px;
+    background-color: #f6f6f6;
+    padding-top: 40px;
+}
+
+.central-content .place {
+    background-color: #fff;
+    border-bottom: 1px solid #f6f6f6;
+    padding: 20px 20px;
+}
+
+.central-content div p {
+    border-left: 3px solid #2babe8;
+    padding-left: 10px;
+}
+
+.central-content div p span {
+    color: #2babe8;
+    font-size: 18px;
+}
+
+.central-content div b {
+    display: block;
+    height: 34px;
+    color: #555;
+    line-height: 34px;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 14px;
+}
+
+.central-content div .contacts {
+    margin-top: 20px;
+}
+
+.central-content .kugou {
+    position: absolute;
+    bottom: 75px;
+    left: calc((1519.2px - 453px) / 2);
+    color: #999;
+    border: 0;
+}
+
+/* 中心内容结束 */
